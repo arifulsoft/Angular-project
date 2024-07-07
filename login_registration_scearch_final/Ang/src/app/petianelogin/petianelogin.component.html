@@ -1,0 +1,51 @@
+<section class="container rt">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Petione ID</h5>
+                    <form (ngSubmit)="m1()">
+                        <div class="col">
+                            <input type="text" name=a_id placeholder="Id Number" aria-label="First name" id=a_id
+                                [(ngModel)]="a_id">
+                        </div><br><br>
+                        <button type="submit">Submit</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</section>
+        <!-- show -->
+
+
+<section class="container pt">
+<table class="table stripe">
+    <tr>
+        <th>Id</th>
+        <th>Patient Name</th>
+        <th>Date</th>
+        <th>Phone</th>
+        <th>Problem</th>
+        <th>Department Name</th>
+        <th>Email</th>
+        <th>Doctor Id</th>
+    </tr>
+    <tr>
+        <td> {{patient. a_id }}</td>
+        <td> {{patient.p_name }}</td>
+        <td> {{patient.date }}</td>
+        <td> {{patient.phone }}</td>
+        <td> {{patient.problem }}</td>
+        <td> {{patient.dept_name }}</td>
+        <td> {{patient.email }}</td>
+        <td> {{patient.d_id }}</td>
+        
+    </tr>
+</table>
+</section>
+<!-- show end -->

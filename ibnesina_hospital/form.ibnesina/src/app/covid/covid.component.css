@@ -1,0 +1,52 @@
+.bt{
+    background-color: #17A2B8;
+    /* height: 70px;
+    padding: 0%; */
+    
+}
+.rt{
+    background-color: #007BFF;
+    height: 50px;
+    margin-right: 200px;
+
+}
+.tf>tr>td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-color: rgb(220, 232, 220);
+  }
+  
+  .kl {
+    background-color: #242626;
+    margin-top: 20px;
+    height: 400px;
+  }
+  
+  .form-control {
+    background-color: #242626;
+    color: white;
+  }
+
+
+
+ 
+		.main { 
+			text-align: center; 
+			font-family: "Times New Roman"; 
+		} 
+
+		.marq { 
+			padding-top: 30px; 
+			padding-bottom: 30px; 
+		} 
+
+		.geek1 { 
+			font-size: 36px; 
+			font-weight: bold; 
+			color: white; 
+			text-align: center; 
+		} 
+
+		.geek2 { 
+			text-align: center; 
+		} 

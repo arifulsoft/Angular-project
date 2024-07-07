@@ -1,0 +1,19 @@
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table{
+    background-color: bisque;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.img{
+    height: 300px;
+    width: 400px;
+}
+.ff{
+    background-color: brown;
+}
+.kk{
+    background-color: cornflowerblue;
+}

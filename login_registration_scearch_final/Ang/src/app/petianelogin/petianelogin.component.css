@@ -1,0 +1,13 @@
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: white;
+}
+.pt{
+    background-color: brown;
+    margin-top: 20px;
+ 
+}
+.rt{
+    background-color: burlywood;
+}

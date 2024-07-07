@@ -1,0 +1,40 @@
+<h2 style="margin-left: 400px; color: blue;">Doctor Appointment Patient</h2>
+<hr>
+
+<section class="container ff">
+    <div class="row">
+        <div class="col-8">
+            <table class="table stripe">
+                <tr>
+                    <th>App.Id</th>
+                    <th>Patient Name</th>
+                    <th>Date</th>
+                    <th>Phone</th>
+                    <th>Problem</th>
+                    <th>Department Name</th>
+                    <th>Email</th>
+                    <th>Doctor Id</th>
+                </tr>
+                <tr *ngFor="let i of allstudent">
+                    <td>{{i.a_id}}</td>
+                    <td>{{i.p_name}}</td>
+                    <td>{{i.date}}</td>
+                    <td>{{i.phone}}</td>
+                    <td>{{i.problem}}</td>
+                    <td>{{i.dept_name}}</td>
+                    <td>{{i.email}}</td>
+                    <td>{{i.d_id}}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-4">
+            <img class="img" src="assets\images\doctors.jpg" alt="">
+        </div>
+    </div>
+</section>
+<section class="container kk">
+    <img src="assets\images\zz.jpg" alt="">
+</section>
+
+
+

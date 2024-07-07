@@ -1,0 +1,76 @@
+.ul-style{
+    list-style-type: square;
+    
+    }
+    ul>li{
+      list-style-type: none;
+    }
+    ul>li>a{
+  
+      text-decoration: none;
+    }
+    
+    body{
+    color: rgb(0, 0, 0);
+    
+    }
+    .round{
+    
+      border-radius: 80px;
+    }
+    span{
+      color: green;
+    }
+    .jumbo img{
+    
+      height: 50vh;
+      width: 100%;
+    
+    }
+    .border-right{
+    border-right: 1px;
+    
+    }
+    .m-top{
+    margin-bottom: 5vh;
+    
+    }
+    .border{
+    
+      box-sizing: border-box;
+    }
+    .at img{
+      height: 200px;
+      width: 200px;
+    
+    }
+    
+    
+  .mainRow,.footer{
+    height: 40pt;
+    background-color: hwb(120 4% 25%);
+    padding-top: 10pz;
+  
+  }
+  .footer{
+    height: auto;
+    background-color: #147120;
+  
+  }
+  .i-l{
+  
+    list-style-type: square;
+    color: black;
+  
+  }
+  
+  .social>li>a{
+    color: white;
+    float: left;
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .social>li>a:hover{
+    color: white;
+  }
+  

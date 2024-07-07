@@ -1,0 +1,87 @@
+<section class="cl-1">
+
+  <div class="row">
+  <div class="col-6">
+    <h4 style="margin-left: 100px; margin-top: 30px;"><b> Patient asmission From: </b></h4>
+    <div class="container">
+      <label for="name" class="form-label">Sl/No: </label>
+      <input type="number" style=" width: 400px;" name="x" class="form-control" id="name"[(ngModel)]="x"><br><p></p>
+    
+      <label for="name" class="form-label">Name : </label>
+      <input type="text" style=" width: 400px;" name="y" class="form-control" id="name" [(ngModel)]="y"><br><p></p>
+    
+      <label for="name" class="form-label">Date : </label>
+      <input type="text" style=" width: 400px;" name="z" class="form-control" id="name" [(ngModel)]="z"><br><p></p>
+    
+      <div>
+        <label for="name" class="form-label">Address : </label><br>
+        <select name="" id="" style="width: 400px;" [(ngModel)]="round">
+          <option value="Dhaka" >Dhaka</option>
+          <option value="Gazipur" >Gazipur</option>
+          <option value="Mymensingh">Mymensingh</option>
+          <option value="Jamalpur" >Jamalpur</option>
+          <option value="Kustia" >Kustia</option>
+          <option value="Nator" >Nator</option>
+          <option value="Khulna">Khulna</option>
+          <option value="Pabna" >Pabna</option>
+        </select>
+      </div>
+    
+      <div>
+        <label for="name" class="form-label">Gender : </label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Male" checked [(ngModel)]="gender">
+          <label class="form-check-label" for="exampleRadios1">
+           Male
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="Female" [(ngModel)]="gender">
+          <label class="form-check-label" for="exampleRadios2">
+            Female
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="Others" [(ngModel)]="gender">
+          <label class="form-check-label" for="exampleRadios2">
+            Others
+          </label>
+        </div>
+      </div>
+    
+      
+     
+     
+    
+    </div><p></p>
+    <div class="container" style= "margin-left: 100px;">
+      <button style="background-color: rgb(0, 217, 255); color: white; color: white; color: black; width: 80px; " type="submit"(click)="Add()">Add</button>
+    </div><br>
+  </div>
+ 
+  <div class="col-6" style="margin-top: 40px;">
+    <h4><b> Patient asmission chart </b></h4>
+    <table class="container tf">
+      <tr>
+        <th>Sl/No</th>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Address</th>
+        <th>Gender</th>
+        <th>Image</th>
+      </tr>
+      <tr *ngFor="let i of p">
+        <td>{{i.id}}</td>
+        <td>{{i.Name}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.round}}</td>
+        <td>{{i.gender}}</td>
+        <td>{{i.image}}</td>
+      </tr>
+    </table><br>
+    <div class="container" style= "margin-left: 100px;">
+      <button style="background-color: rgb(255, 213, 0); color: white; color: black; width: 80px; " type="submit"(click)="Show()">Show</button>
+    </div><br>
+  </div>
+  </div>
+    </section>

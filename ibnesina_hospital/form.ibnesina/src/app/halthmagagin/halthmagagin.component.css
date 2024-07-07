@@ -1,0 +1,11 @@
+table,tr,th{
+    border: 1px solid;
+    border-collapse: collapse;
+    color: rgb(216, 200, 170);
+}
+.tt{
+    color: black;
+}
+.tr{
+    color: rgb(35, 240, 35);
+}

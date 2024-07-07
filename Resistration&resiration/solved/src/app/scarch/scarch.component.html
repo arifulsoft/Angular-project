@@ -1,0 +1,24 @@
+
+<h1 style="margin-left: 400px; color: blue;">Doctor Login</h1><hr>
+<div class="container vt">
+
+    <div class="row">
+        <div class="col-8">
+            <form (ngSubmit)="login()">
+                <div class="mb-3">
+                  <label for="id" class="form-label">Id</label>
+                  <input type="text" class="form-control" id="id" name="id" [(ngModel)]="id"> 
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="password" name="password" [(ngModel)]="password"> 
+                  </div>
+                <button type="submit"  class="btn btn-primary" style="background-color: black; color: white;">Submit</button>
+              </form>
+        </div>
+    </div>
+
+  
+</div>
+
+

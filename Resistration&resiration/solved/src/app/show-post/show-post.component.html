@@ -1,0 +1,30 @@
+<h2 style="margin-left: 400px; color: blue;">Doctor Appointment Patient</h2>
+<hr>
+
+<section class="container ff">
+    <div class="row">
+        <div class="col">
+            <table class="table stripe">
+                <tr>
+                    <th>Employ Id</th>
+                    <th>Employ Name</th>
+                    <th>Employ Email</th>
+                    <th>Employ Password</th>
+                   
+                </tr>
+                <tr *ngFor="let i of allData">
+                    <td>{{i.empid}}</td>
+                    <td>{{i.empname}}</td>
+                    <td>{{i.empemail}}</td>
+                    <td>{{i.emppassword}}</td>
+                    
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+
+
+

@@ -1,0 +1,15 @@
+.bt{
+    background-color: #17A2B8;
+    
+}
+.pt{
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 14pt;
+    width:1000px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+

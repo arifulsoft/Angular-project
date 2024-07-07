@@ -1,0 +1,16 @@
+.tf>tr>td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-color: rgb(220, 232, 220);
+  }
+  
+  .kl {
+    background-color: #242626;
+    margin-top: 20px;
+    height: 400px;
+  }
+  
+  .form-control {
+    background-color: #242626;
+    color: white;
+  }

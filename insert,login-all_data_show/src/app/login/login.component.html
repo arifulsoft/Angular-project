@@ -1,0 +1,21 @@
+
+<section>
+    <div class="container tr">
+        <div style="margin-left: 100px; ">
+            <form (ngSubmit)="m1()">
+                <div class="mb-3">
+                    <label for="id" class="form-label">ID</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp" name="id" id="id" 
+                        [(ngModel)]="id" style="width: 600px;">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="text" class="form-control" name="password" id="password" [(ngModel)]="password"
+                        style="width: 600px;">
+                </div><br><br>
+                <button type="submit" class="btn btn-primary" type="Submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</section>

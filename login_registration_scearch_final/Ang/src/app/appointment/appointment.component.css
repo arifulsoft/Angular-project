@@ -1,0 +1,20 @@
+.fc{
+background-color: bisque;
+}
+.gt{
+    width: 400px;
+    height: 400px;
+}
+.fh{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   background-color: darkgoldenrod;
+    color: white;
+}
+.hw{
+    margin-left: 400px;
+    color: blue;
+}
+.dd{
+    margin-left: 70px;
+ color: black;
+}
